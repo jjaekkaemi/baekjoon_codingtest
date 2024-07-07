@@ -13,6 +13,7 @@ public class Main {
         getSequence(0, new boolean[N+1]);
 
     }
+
     // 재귀로 수열을 만들어주는 함수
     public static void getSequence(int cnt, boolean[] selected){ // cnt: 어레이 index, selected: 현재 수가 선택됐는지 체크
         if(cnt == M) { // 자릿 수 다 찼으면 print, 재귀 종료
