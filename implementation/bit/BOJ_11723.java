@@ -1,3 +1,4 @@
+package bit;
 
 import java.io.*;
 import java.util.*;
